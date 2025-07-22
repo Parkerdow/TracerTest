@@ -4,10 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "TracerBuild",
+            "label": "TracerTest",
             "type": "shell",
-            "command": "${workspaceFolder}/TracerRunner.sh",
-            "problemMatcher": []
-        }
+            "command": "${workspaceFolder}/TracerTester.sh",
+            "problemMatcher": [],
+        },
+
+        {
+            "label": "TracerRun",
+            "type": "shell",
+            "command": "${workspaceFolder}/TracerRunner.sh",            
+            "problemMatcher": [],
+        }   
     ]
 }
