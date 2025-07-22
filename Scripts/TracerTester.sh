@@ -10,9 +10,9 @@
     #esac /cellar/users/pdow/Projects/tracer/resource  
 #done
 
-conda run -n tracer --live-stream python ../tracer/tracer test \
---config_file ../tracer.conf \
---resource_dir ~/cellar/users/pdow/Projects/tracer/resources \
+conda run -n tracer --live-stream python /cellar/users/pdow/Projects/tracer/tracer test \
+--config_file /cellar/users/pdow/Projects/TracerTest/tracer.conf \
+--resource_dir /cellar/users/pdow/Projects/tracer/resources \
 --resume_with_existing_files \
 --no_networks \
---output ./test_Output \
+--output /cellar/users/pdow/Projects/TracerTest/Results \

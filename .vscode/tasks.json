@@ -6,14 +6,14 @@
         {
             "label": "TracerTest",
             "type": "shell",
-            "command": "${workspaceFolder}/TracerTester.sh",
+            "command": "${workspaceFolder}/Scripts/TracerTester.sh",
             "problemMatcher": [],
         },
 
         {
             "label": "TracerRun",
             "type": "shell",
-            "command": "${workspaceFolder}/TracerRunner.sh",            
+            "command": "${workspaceFolder}/Scripts/TracerRunner.sh",            
             "problemMatcher": [],
         }   
     ]
